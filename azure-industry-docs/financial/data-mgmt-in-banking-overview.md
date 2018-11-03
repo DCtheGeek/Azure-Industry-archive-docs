@@ -219,7 +219,7 @@ Azure Information Protection (AIP) is a cloud-based solution helping organizatio
 ## Data services
 
 Banks struggle with Master Data Management, meta data conflicting due to disparate core banking systems,
-and data coming from origination systems, onboarding systems, offers management systems, CRM systems, and more. Azure has tools to help mitigate thesee and other commonly occuring data issues.
+and data coming from origination systems, onboarding systems, offers management systems, CRM systems, and more. Azure has tools to help mitigate thesee and other commonly occurring data issues.
 
 There are many operations financial services organizations need to perform on
 their data. When writing data to Azure data stores, there may be a need to
