@@ -60,9 +60,6 @@
           - name: Azure Machine Learning
             href: https://azure.microsoft.com/en-us/overview/machine-learning/
             maintainContext: true
-          - name: Azure Machine Learning Package for Forecasting
-            href: /python/api/overview/azure-machine-learning/forecasting-overview
-            maintainContext: true
           - name: Azure SQL Database
             href: https://azure.microsoft.com/en-us/services/sql-database/
             maintainContext: true
@@ -102,9 +99,6 @@
           href: health/overview-healthcare-ai-blueprint.md
         - name: Solution Guide
           href: health/sg-healthcare-ai-blueprint.md
-      - name: Biomedical Entity Recognition
-        href: /azure/machine-learning/desktop-workbench/scenario-tdsp-biomedical-recognition
-        maintainContext: true
       - name: HL7 FHIR health care record changes
         href: /azure/cosmos-db/change-feed-hl7-fhir-logic-apps
         maintainContext: true
@@ -154,9 +148,6 @@
             items:
               - name: Azure Machine Learning Documentation
                 href: /azure/machine-learning
-              - name: Deep learning for predictive maintenance real-world scenarios
-                href: /azure/machine-learning/desktop-workbench/scenario-deep-learning-for-predictive-maintenance
-                maintainContext: true
               - name: Microsoft IoT Solution Architecture
                 href: /azure/iot-suite/iot-suite-what-is-azure-iot
               - name: Pillars of Software Quality
@@ -320,8 +311,6 @@
           href: /services/data-factory
         - name: Accelerating SKU optimization with Neal Analytics
           href: /azure/machine-learning/service/overview-what-is-azure-ml
-        - name: Azure Machine Learning Workbench
-          href: /azure/machine-learning/service/overview-what-happened-to-workbench
         - name: Azure SQL Data Warehouse
           href: /services/sql-data-warehouse
         - name: HDInsight
