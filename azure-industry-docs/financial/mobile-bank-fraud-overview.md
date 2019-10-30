@@ -3,7 +3,7 @@
 title: Mobile Bank Fraud 
 author: dstarr
 ms.author: dastarr
-ms.date: 09/26/2018
+ms.date: 10/30/2018
 ms.topic: article
 ms.service: industry
 description: An overview of mobile fraud in banking
