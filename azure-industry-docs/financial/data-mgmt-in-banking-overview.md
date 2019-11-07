@@ -3,7 +3,7 @@
 title: Data Management in Banking Overview 
 author: dstarr
 ms.author: dastarr
-ms.date: 05/21/2018
+ms.date: 10/30/2019
 ms.topic: article
 ms.service: industry
 description: Describes techniques of managing data in a regulated banking environment using Microsoft Azure.
@@ -83,7 +83,7 @@ as though it were on-premises, with minimal changes to those existing
 applications. This is especially true when using Microsoft [Azure SQL
 Database](/azure/sql-database/?WT.mc_id=bankdm-docs-dastarr), but through the
 [Azure
-Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/databases?WT.mc_id=bankdm-docs-dastarr)
+Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/databases?WT.mc_id=bankdm-docs-dastarr)
 solutions can be found for Oracle, TeraData MongoDB and others.
 
 Different data migration strategies exist for moving data from on-premises to
@@ -138,7 +138,7 @@ for some standard techniques with advantages, and disadvantages of each.
 When lifting and shifting SQL Server databases the [Microsoft Azure Database
 Migration Service](/azure/dms/dms-overview?WT.mc_id=bankdm-docs-dastarr) can
 be used to move databases to Azure. The service uses the [Data Migration
-Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-overview?WT.mc_id=bankdm-docs-dastarr) to ensure your
+Assistant](https://docs.microsoft.com/sql/dma/dma-overview?WT.mc_id=bankdm-docs-dastarr) to ensure your
 on-premises database will be compatible with features offered in Azure SQL. Any
 changes required before migrating the database is up to you. Further, use of the
 service requires a Site-to-Site internet connection between the on-premises
@@ -148,7 +148,7 @@ network and Azure.
 
 If SQL Server is on-premises today and the goal is to move to SQL Azure, another
 great technique is to use SQL Server Management Studio [and the BCP utility to
-move data](https://azure.microsoft.com/en-us/blog/bcp-and-sql-azure/?WT.mc_id=bankdm-docs-dastarr) into SQL
+move data](https://azure.microsoft.com/blog/bcp-and-sql-azure/?WT.mc_id=bankdm-docs-dastarr) into SQL
 Azure. After scripting and creating Azure SQL databases from the original
 on-premises server, BCP can be used to rapidly transfer data into SQL Azure.
 
@@ -203,7 +203,7 @@ and recovery services.
 Often, banks will have terabytes, if not petabytes, of information to bring into Azure. Luckily data stores in Azure are very elastic and highly scalable.
 
 A service focused on migrating very large volumes of data to Azure is [Azure Data
-Box](https://azure.microsoft.com/en-us/services/storage/databox/?WT.mc_id=bankdm-docs-dastarr). This service
+Box](https://azure.microsoft.com/services/storage/databox/?WT.mc_id=bankdm-docs-dastarr). This service
 is designed to migrate data without transferring data or backups over an Azure
 connection. Suitable for terabytes of data, Azure Data Box is an appliance that
 can be ordered from the Azure Portal. It is shipped to your location, where it
@@ -219,7 +219,7 @@ Azure Information Protection (AIP) is a cloud-based solution helping organizatio
 ## Data services
 
 Banks struggle with Master Data Management, meta data conflicting due to disparate core banking systems,
-and data coming from origination systems, onboarding systems, offers management systems, CRM systems, and more. Azure has tools to help mitigate thesee and other commonly occuring data issues.
+and data coming from origination systems, onboarding systems, offers management systems, CRM systems, and more. Azure has tools to help mitigate thesee and other commonly occurring data issues.
 
 There are many operations financial services organizations need to perform on
 their data. When writing data to Azure data stores, there may be a need to
@@ -362,7 +362,7 @@ Once your data is hosted in Azure, create a data purge plan for data that has
 outlived its usefulness or lifespan. While long-term (cold) storage is always a
 great option for archiving, clean-up of expired data reduces footprint and
 overall storage costs. Backup and archive [Azure solution
-architectures](https://azure.microsoft.com/en-us/solutions/architecture/?solution=backup-archive?WT.mc_id=bankdm-docs-dastarr)
+architectures](https://azure.microsoft.com/solutions/architecture/?solution=backup-archive?WT.mc_id=bankdm-docs-dastarr)
 is a good resource to help plan your overall strategy.
 
 ## Relevant Technologies
@@ -408,7 +408,7 @@ Databricks and Data Factory. Archival storage is available for long-term storage
 of rarely-accessed data and it can be deleted on a rolling cycle as needed.
 
 Visit the Azure solutions library for [backup and archival
-storage](https://azure.microsoft.com/en-us/solutions/architecture/?solution=backup-archive?WT.mc_id=bankdm-docs-dastarr)
+storage](https://azure.microsoft.com/solutions/architecture/?solution=backup-archive?WT.mc_id=bankdm-docs-dastarr)
 to get started designing your data management plan.
 
 **Article by**: Howard Bush and David Starr
