@@ -3,7 +3,7 @@
 title: Health & Life Sciences Industry
 author: dstarr
 ms.author: dastarr
-ms.date: 04/25/2018
+ms.date: 11/07/2019
 ms.topic: article
 ms.service: industry
 description: Health and Life Sciences use cases from Azure Industry Experiences

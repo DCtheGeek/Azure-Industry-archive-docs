@@ -1,9 +1,9 @@
 ---
 # required metadata
 title: Implementing the Azure blueprint for AI
-author: dastarr
+author: dstarr
 ms.author: dastarr
-ms.date: 08/24/2018
+ms.date: 11/07/2019
 ms.topic: article
 ms.service: industry
 description: This article provides guidance for the Microsoft Azure blueprint for AI.
@@ -56,7 +56,7 @@ The resources below are all found in this GitHub repository.
 
 Primary resources are:
 
-1. [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?WT.mc_id=ms-docs-dastarr) scripts for deployment, configuration, and other tasks.
+1. [PowerShell](https://docs.microsoft.com/powershell/scripting/powershell-scripting?WT.mc_id=ms-docs-dastarr) scripts for deployment, configuration, and other tasks.
 2. [Detailed instructions for installation](https://github.com/Azure/Health-Data-and-AI-Blueprint/blob/master/deployment.md) which include how to use the install script.
 3. [A comprehensive FAQ](https://github.com/Azure/Health-Data-and-AI-Blueprint/blob/master/faq.md).
 
@@ -76,7 +76,7 @@ The blueprint also provides additional scripts and data used to simulate and stu
 
 The blueprint provides exceptional guidance and instructions for technical staff and also includes artifacts to help create a fully functional installation. These other artifacts include:
 
-1. A [threat model](https://servicetrust.microsoft.com/ViewPage/HIPAABlueprint?command=Download&downloadType=Document&downloadId=01828de2-9555-4bac-a2a0-44e9ed2eeeaf&docTab=d7c399a0-2b92-11e8-9910-13dc07d708f7_Data_Analytics&WT.mc_id=ms-docs-dastarr) for use with the [Microsoft Threat Modeling Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49168&WT.mc_id=ms-docs-dastarr). This threat model shows components of the solution, the data flows between them, and the trust boundaries. The tool can be used for threat modeling by those looking to extend the base blueprint or for learning about the system architecture from a security perspective.
+1. A [threat model](https://servicetrust.microsoft.com/ViewPage/HIPAABlueprint?command=Download&downloadType=Document&downloadId=01828de2-9555-4bac-a2a0-44e9ed2eeeaf&docTab=d7c399a0-2b92-11e8-9910-13dc07d708f7_Data_Analytics&WT.mc_id=ms-docs-dastarr) for use with the [Microsoft Threat Modeling Tool](https://www.microsoft.com/download/details.aspx?id=49168&WT.mc_id=ms-docs-dastarr). This threat model shows components of the solution, the data flows between them, and the trust boundaries. The tool can be used for threat modeling by those looking to extend the base blueprint or for learning about the system architecture from a security perspective.
 
 2. The [HITRUST customer responsibility matrix](https://servicetrust.microsoft.com/ViewPage/HIPAABlueprint?command=Download&downloadType=Document&downloadId=eab85244-b9ab-490a-9e2a-611153f7d3af&docTab=d7c399a0-2b92-11e8-9910-13dc07d708f7_Data_Analytics&WT.mc_id=ms-docs-dastarr), in an Excel workbook.  This shows what you (the customer) must provide versus what Microsoft provides for each requirement in the matrix. More information about this responsibility matrix is included in this article in the Security and Compliance > Blueprint responsibility matrix section of this document.
 
@@ -118,7 +118,7 @@ The installer downloads some external packages during installation. Sometimes, a
 
 1. Run the install script again with no changes. The installer checks for already allocated resources and installs only those needed. While this technique can work, there is a risk the install script will try to allocate resources already in place. This can cause an error and the installation will fail.
 
-2. You still run the deploy.ps1 script, but pass different arguments for uninstalling the blueprint services. 
+2. You still run the deploy.ps1 script, but pass different arguments for uninstalling the blueprint services.
 
 ```powershell
 .\deploy.ps1 -clearDeploymentPrefix <prefix> `
@@ -149,7 +149,7 @@ The person installing the blueprint must be in the Global Administrator role in 
 
 ![Blueprint installer](assets/sg-healthcare-ai-blueprint-assets/blueprint-installer.png)
 
-Further, the install is not designed to work with MSDN subscriptions due to the tight integration with AAD. A standard Azure account must be used. If needed, [get a free trial](https://azure.microsoft.com/en-us/free/?WT.mc_id=ms-docs-dastarr) with credit to spend for installing the blueprint solution and running its demos.
+Further, the install is not designed to work with MSDN subscriptions due to the tight integration with AAD. A standard Azure account must be used. If needed, [get a free trial](https://azure.microsoft.com/free/?WT.mc_id=ms-docs-dastarr) with credit to spend for installing the blueprint solution and running its demos.
 
 ## Adding other resources
 
@@ -157,7 +157,7 @@ The Azure blueprint installation doesn’t include more services than those need
 
 New resources, like [Cosmos DB](/azure/cosmos-db/introduction?WT.mc_id=ms-docs-dastarr) or a new [Azure Functions](/azure/azure-functions/functions-overview?WT.mc_id=ms-docs-dastarr), may be added to the solution as more Azure capabilities are needed. When adding new resources or services, ensure they are configured to meet security and privacy policies to remain compliant with regulations and policy.
 
-New resources and services may be created with [Azure REST APIs](https://docs.microsoft.com/en-us/rest/api/?view=Azure&WT.mc_id=ms-docs-dastarr), [Azure PowerShell scripting](https://docs.microsoft.com/en-us/powershell/azure/get-started-azureps?view=azurermps-6.6.0&WT.mc_id=ms-docs-dastarr), or by using the [Azure Portal](http://portal.azure.com/?WT.mc_id=ms-docs-dastarr).
+New resources and services may be created with [Azure REST APIs](https://docs.microsoft.com/rest/api/?view=Azure&WT.mc_id=ms-docs-dastarr), [Azure PowerShell scripting](https://docs.microsoft.com/powershell/azure/get-started-azureps?view=azurermps-6.6.0&WT.mc_id=ms-docs-dastarr), or by using the [Azure Portal](http://portal.azure.com/?WT.mc_id=ms-docs-dastarr).
 
 ## Using machine learning with the blueprint
 
@@ -314,12 +314,11 @@ It is strongly recommended that you install the blueprint in an empty AAD rather
 
 - Learn more about the [Azure Health Data and AI blueprint](/azure/security/blueprints/azure-health?WT.mc_id=ms-docs-dastarr).
 - Download, clone or fork the [GitHub repo here](https://github.com/Azure/Health-Data-and-AI-Blueprint/blob/master/deployment.md).
-- [Machine Learning Studio](/azure/machine-learning/studio/?WT.mc_id=ms-docs-dastarr) is the workspace and tool data scientists use to create Machine Learning experiments. It allows using built-in algorithms, special purpose widgets, and Python and R scripts.
+- [Machine Learning Studio](/azure/machine-learning/?WT.mc_id=ms-docs-dastarr) is the workspace and tool data scientists use to create Machine Learning experiments. It allows using built-in algorithms, special purpose widgets, and Python and R scripts.
 - Secrets, certificates, and other private data is held in [Azure Key Vault](/azure/key-vault/key-vault-whatis?WT.mc_id=ms-docs-dastarr).
 - The scripting language PowerShell is instrumental to setting up the blueprint, although needed commands are presented in the installation instructions.
-- [Azure AI Gallery](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?WT.mc_id=ms-docs-dastarr) provides a recipe box of AI/ML solutions useful for customers by their industry. There are several solutions published by data scientists along with other experts for healthcare.
+- [Azure AI Gallery](https://gallery.azure.ai/) provides a recipe box of AI/ML solutions useful for customers by their industry. There are several solutions published by data scientists along with other experts for healthcare.
 - [Azure Security Center](/azure/security-center/?WT.mc_id=ms-docs-dastarr) provides insights into your application’s behavior, vulnerabilities, and mitigation techniques.
-- The [Microsoft Threat Modeling Tool](/azure/security/blueprints/azure-health?WT.mc_id=ms-docs-dastarr) is used to plan and predict threats to your system environment. It is needed to review the threat model included with the blueprint.
 
 ## Wrapping up
 

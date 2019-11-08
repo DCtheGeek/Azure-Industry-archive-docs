@@ -1,9 +1,9 @@
 ---
 # required metadata
 title: Implementing the Azure blueprint for AI
-author: dastarr
+author: dstarr
 ms.author: dastarr
-ms.date: 08/24/2018
+ms.date: 11/07/2019
 ms.topic: article
 ms.service: industry
 description: This article introduces the Microsoft Azure blueprint for AI.
