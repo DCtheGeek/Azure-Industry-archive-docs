@@ -273,12 +273,12 @@
     - name: Retail
       href: retail/index.md
       items:
-      - name: SKU optimization for consumer brands
-        items:
-        - name: Overview
-          href: retail/sku-optimization-overview.md
-        - name: Solution guide
-          href: retail/sku-optimization-solution-guide.md      
+        - name: SKU optimization for consumer brands
+          items:
+          - name: Overview
+            href: retail/sku-optimization-overview.md
+          - name: Solution guide
+            href: retail/sku-optimization-solution-guide.md      
       items:
       - name: Architectures
         items:
