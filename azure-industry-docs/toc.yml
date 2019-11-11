@@ -21,7 +21,7 @@
         - name: Architectures
           items:
           - name: Azure Data Architecture Guide
-            href: /azure/architecture/data-guide
+            href: /azure/architecture
         - name: Training
           items:
           - name: Azure Solutions Architect Training
@@ -161,7 +161,7 @@
         - name: Architectures
           items:
             - name: Azure Data Architecture Guide
-              href: /azure/architecture/data-guide
+              href: /azure/architecture
         - name: Training
           items:
             - name: Create automated, schedule-based, recurring workflows by using Azure Logic Apps
@@ -279,59 +279,58 @@
             href: retail/sku-optimization-overview.md
           - name: Solution guide
             href: retail/sku-optimization-solution-guide.md      
-      items:
-      - name: Architectures
-        items:
-        - name: Azure Data Architecture Guide
-          href: /azure/architecture/data-guide/
-      - name: Training
-        items:
-        - name: Azure Solutions Architect Training
-          href: /learn/certifications/azure-solutions-architect
-      - name: Additional Resources
-        items:
-        - name: Azure Active Directory
-          href: /azure/active-directory/
-        - name: Accelerating SKU optimization with Neal Analytics
-          href: /services/analysis-services
-        - name: Azure Blob Storage
-          href: /services/storage/blobs
-        - name: Azure Databricks
-          href: /services/databricks
-        - name: Azure Data Factory
-          href: /services/data-factory
-        - name: Accelerating SKU optimization with Neal Analytics
-          href: /azure/machine-learning/service/overview-what-is-azure-ml
-        - name: Azure Machine Learning Workbench
-          href: /azure/machine-learning/service/overview-what-happened-to-workbench
-        - name: Azure SQL Data Warehouse
-          href: /services/sql-data-warehouse
-        - name: HDInsight
-          href: /services/hdinsight
-        - name: Power BI
-          href: https://powerbi.microsoft.com/
+        - name: Architectures
+          items:
+          - name: Azure Data Architecture Guide
+            href: /azure/architecture
+        - name: Training
+          items:
+          - name: Azure Solutions Architect Training
+            href: /learn/certifications/azure-solutions-architect
+        - name: Additional Resources
+          items:
+          - name: Azure Active Directory
+            href: /azure/active-directory/
+          - name: Accelerating SKU optimization with Neal Analytics
+            href: /services/analysis-services
+          - name: Azure Blob Storage
+            href: /services/storage/blobs
+          - name: Azure Databricks
+            href: /services/databricks
+          - name: Azure Data Factory
+            href: /services/data-factory
+          - name: Accelerating SKU optimization with Neal Analytics
+            href: /azure/machine-learning/service/overview-what-is-azure-ml
+          - name: Azure Machine Learning Workbench
+            href: /azure/machine-learning/service/overview-what-happened-to-workbench
+          - name: Azure SQL Data Warehouse
+            href: /services/sql-data-warehouse
+          - name: HDInsight
+            href: /services/hdinsight
+          - name: Power BI
+            href: https://powerbi.microsoft.com/
+            maintainContext: true
+        - name: Azure AI Gallery (retail)
+          href: https://gallery.azure.ai/industries/retail
+        - name: Retail Customer Churn Prediction
+          href: https://gallery.azure.ai/Tutorial/Retail-Customer-Churn-Prediction-1 
+        - name: Data Management in Retail Overview
+          href: retail/retail-data-management-overview.md
+        - name: Migrating your e-commerce solution to Azure Overview
+          href: retail/migrating-ecommerce-solution-to-azure.md
+        - name: Optimize and reuse an existing recommendation system
+          href: retail/recommendation-engine-optimization.md
+        - name: PCI DSS-compliant Payment Processing
+          href: /azure/governance/blueprints/samples/pci-dss-3.2.1/
           maintainContext: true
-      - name: Azure AI Gallery (retail)
-        href: https://gallery.azure.ai/industries/retail
-      - name: Retail Customer Churn Prediction
-        href: https://gallery.azure.ai/Tutorial/Retail-Customer-Churn-Prediction-1 
-      - name: Data Management in Retail Overview
-        href: retail/retail-data-management-overview.md
-      - name: Migrating your e-commerce solution to Azure Overview
-        href: retail/migrating-ecommerce-solution-to-azure.md
-      - name: Optimize and reuse an existing recommendation system
-        href: retail/recommendation-engine-optimization.md
-      - name: PCI DSS-compliant Payment Processing
-        href: /azure/governance/blueprints/samples/pci-dss-3.2.1/
-        maintainContext: true
-      - name: Visual Search Overview
-        href: retail/visual-search-use-case-overview.md
-      - name: Azure Cosmos DB in retail and marketing
-        href: /azure/cosmos-db/use-cases#retail-and-marketing
-        maintainContext: true
-      - name: Demand Forecasting and Price Optimization
-        href: https://gallery.azure.ai/Solution/Demand-Forecasting-and-Price-Optimization
-        maintainContext: true
-      - name: Inventory Optimization Solution with Azure AI
-        href: https://blogs.technet.microsoft.com/machinelearning/2018/04/05/inventory-optimization-solution-in-the-azure-ai-gallery
-        maintainContext: true
+        - name: Visual Search Overview
+          href: retail/visual-search-use-case-overview.md
+        - name: Azure Cosmos DB in retail and marketing
+          href: /azure/cosmos-db/use-cases#retail-and-marketing
+          maintainContext: true
+        - name: Demand Forecasting and Price Optimization
+          href: https://gallery.azure.ai/Solution/Demand-Forecasting-and-Price-Optimization
+          maintainContext: true
+        - name: Inventory Optimization Solution with Azure AI
+          href: https://blogs.technet.microsoft.com/machinelearning/2018/04/05/inventory-optimization-solution-in-the-azure-ai-gallery
+          maintainContext: true
