@@ -262,7 +262,7 @@
           - name: Transform XML
             href: /azure/logic-apps/logic-apps-enterprise-integration-transform
     - name: Retail
-      ref: retail/index.md
+      href: retail/index.md
       items:
       - name: SKU optimization for consumer brands
         items:
