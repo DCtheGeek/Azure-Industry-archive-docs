@@ -311,6 +311,10 @@
         - name: Power BI
           href: https://powerbi.microsoft.com/
           maintainContext: true
+      - name: Azure AI Gallery (retail)
+        href: https://gallery.azure.ai/industries/retail
+      - name: Retail Customer Churn Prediction
+        href: https://gallery.azure.ai/Tutorial/Retail-Customer-Churn-Prediction-1 
       - name: Data Management in Retail Overview
         href: retail/retail-data-management-overview.md
       - name: Migrating your e-commerce solution to Azure Overview
