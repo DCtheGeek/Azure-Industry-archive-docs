@@ -21,7 +21,7 @@
         - name: Architectures
           items:
           - name: Azure Data Architecture Guide
-            href: /azure/architecture/data-guide
+            href: /azure/#pivot=architecture
         - name: Training
           items:
           - name: Azure Solutions Architect Training
@@ -161,7 +161,7 @@
         - name: Architectures
           items:
             - name: Azure Data Architecture Guide
-              href: /azure/architecture/data-guide
+              href: /azure/#pivot=architecture
         - name: Training
           items:
             - name: Create automated, schedule-based, recurring workflows by using Azure Logic Apps
@@ -282,7 +282,7 @@
         - name: Architectures
           items:
           - name: Azure Data Architecture Guide
-            href: /azure/architecture/data-guide/
+            href: /azure/#pivot=architecture
         - name: Training
           items:
           - name: Azure Solutions Architect Training
