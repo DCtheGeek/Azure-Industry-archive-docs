@@ -271,7 +271,14 @@
           - name: Transform XML
             href: /azure/logic-apps/logic-apps-enterprise-integration-transform
     - name: Retail
-      href: retail/index.md
+      ref: retail/index.md
+      items:
+      - name: SKU optimization for consumer brands
+        items:
+        - name: Overview
+          href: retail/sku-optimization-overview.md
+        - name: Solution guide
+          href: retail/sku-optimization-solution-guide.md      
       items:
       - name: Architectures
         items:
@@ -302,8 +309,12 @@
         - name: HDInsight
           href: /services/hdinsight
         - name: Power BI
-          href: https://powerbi.microsoft.com/en-us/
+          href: https://powerbi.microsoft.com/
           maintainContext: true
+      - name: Azure AI Gallery (retail)
+        href: https://gallery.azure.ai/industries/retail
+      - name: Retail Customer Churn Prediction
+        href: https://gallery.azure.ai/Tutorial/Retail-Customer-Churn-Prediction-1 
       - name: Data Management in Retail Overview
         href: retail/retail-data-management-overview.md
       - name: Migrating your e-commerce solution to Azure Overview
@@ -311,22 +322,16 @@
       - name: Optimize and reuse an existing recommendation system
         href: retail/recommendation-engine-optimization.md
       - name: PCI DSS-compliant Payment Processing
-        href: /azure/security/blueprints/payment-processing-blueprint
+        href: /azure/governance/blueprints/samples/pci-dss-3.2.1/
         maintainContext: true
       - name: Visual Search Overview
         href: retail/visual-search-use-case-overview.md
-      - name: SKU optimization for consumer brands
-        items:
-        - name: Overview
-          href: retail/sku-optimization-overview.md
-        - name: Solution guide
-          href: retail/sku-optimization-solution-guide.md            
-      - name: Additional Resources
-        items:
-        - name: Azure Cosmos DB in retail and marketing
-          href: /azure/cosmos-db/use-cases#retail-and-marketing
-          maintainContext: true
-        - name: Demand Forecasting and Price Optimization
-          href: https://gallery.azure.ai/Solution/Demand-Forecasting-and-Price-Optimization
-        - name: Inventory Optimization Solution with Azure AI
-          href: https://blogs.technet.microsoft.com/machinelearning/2018/04/05/inventory-optimization-solution-in-the-azure-ai-gallery
+      - name: Azure Cosmos DB in retail and marketing
+        href: /azure/cosmos-db/use-cases#retail-and-marketing
+        maintainContext: true
+      - name: Demand Forecasting and Price Optimization
+        href: https://gallery.azure.ai/Solution/Demand-Forecasting-and-Price-Optimization
+        maintainContext: true
+      - name: Inventory Optimization Solution with Azure AI
+        href: https://blogs.technet.microsoft.com/machinelearning/2018/04/05/inventory-optimization-solution-in-the-azure-ai-gallery
+        maintainContext: true
