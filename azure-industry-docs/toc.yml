@@ -280,13 +280,9 @@
       - name: Training
         items:
         - name: Azure Solutions Architect Training
-          href: /training/learning-paths/azure-solution-architect/
-      - name: Test drive the Neal Analytics SKU Max solution
-        href: https://appsource.microsoft.com/en-us/product/web-apps/neal_analytics.8066ad01-1e61-40cd-bd33-9b86c65fa73a
+          href: /learn/certifications/azure-solutions-architect
       - name: Additional Resources
         items:
-        - name: Accelerating SKU optimization with Neal Analytics
-          href: https://nealanalytics.com/solutions/sku-max/
         - name: Azure Active Directory
           href: /azure/active-directory/
         - name: Accelerating SKU optimization with Neal Analytics
