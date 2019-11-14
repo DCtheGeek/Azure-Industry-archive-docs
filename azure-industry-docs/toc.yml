@@ -135,14 +135,6 @@
             href: manufacturing/predictive-maintenance-overview.md
           - name: Solution Guide
             href: manufacturing/predictive-maintenance-solution.md
-          - name: Additional Resources
-            items:
-              - name: Azure Machine Learning Documentation
-                href: /azure/machine-learning
-              - name: Microsoft IoT Solution Architecture
-                href: /azure/iot-suite/iot-suite-what-is-azure-iot
-              - name: Pillars of Software Quality
-                href: /azure/architecture/guide/pillars
         - name: Extracting insights from IoT Data
           items:
             - name: Overview
@@ -153,6 +145,12 @@
           items:
             - name: Azure Data Architecture Guide
               href: /azure/architecture
+            - name: Cloud design patterns
+              href: /azure/architecture/patterns
+            - name: High Performance Computing (HPC) on Azure
+              href: /azure/architecture/topics/high-performance-computing
+            - name: Stream processing pipeline with Azure Databricks
+              href: /azure/architecture/reference-architectures/data/stream-processing-databricks
         - name: Training
           items:
             - name: Create automated, schedule-based, recurring workflows by using Azure Logic Apps
@@ -177,6 +175,12 @@
               href: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
         - name: Additional resources
           items:
+          - name: Azure Machine Learning Documentation
+            href: /azure/machine-learning
+          - name: Microsoft IoT Solution Architecture
+            href: /azure/iot-suite/iot-suite-what-is-azure-iot
+          - name: Pillars of Software Quality
+            href: /azure/architecture/guide/pillars
           - name: Apache Kafka on HDInsight
             href: /azure/hdinsight/kafka/apache-kafka-introduction
           - name: App Service
