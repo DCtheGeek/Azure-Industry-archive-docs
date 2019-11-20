@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: SKU Optimization overview 
+title: SKU optimization summary 
 author: sidneyh
 ms.author: sidneyh
-ms.date: 10/16/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: An overview of the SKU optimization solution guide 

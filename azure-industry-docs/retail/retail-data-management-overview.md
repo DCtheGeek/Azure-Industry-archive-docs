@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Data Management in Retail Overview 
+title: Primer for big data management in Retail industry
 author: dstarr
 ms.author: dastarr
-ms.date: 06/22/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Retailors have large data stores of unused data from which they may gain valuable insights. This article discusses how Microsoft Azure can help effectively use that data.
