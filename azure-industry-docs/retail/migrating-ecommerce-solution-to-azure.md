@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Migrating your e-commerce solution to Azure Overview 
+title: Overview of E-commerce solution migration to Azure
 author: scseely
-ms.author: scseely, mazoroto
-ms.date: 07/16/2018
+ms.author: scseely
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: This article explains the phases of migrating ecommerce infrastructure from on premises to Azure.

@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Recommendation Engine Optimization 
+title: Reuse recommender systems, and algorithms from R with Azure
 author: kbaroni
 ms.author: kbaroni
-ms.date: 07/18/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: How to reuse and optimize recommendation apps written in the R language. Relies Machine Learning Server on a Azure VMs.

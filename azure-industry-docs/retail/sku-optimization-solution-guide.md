@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: SKU optimization for consumer brands 
+title: SKU optimization for consumer brands using Azure ML and analytics
 author: scseely
-ms.author: scseely, mazoroto
-ms.date: 10/10/2018
+ms.author: scseely
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Retail industry assortment optimization. SKU optimization through insights from AI and ML.

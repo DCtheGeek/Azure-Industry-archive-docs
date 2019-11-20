@@ -4,7 +4,7 @@ title: Azure For Industry
 author: dstarr
 layout: LandingPage
 ms.author: dastarr
-ms.date: 04/12/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Home of the Industry Experiences team

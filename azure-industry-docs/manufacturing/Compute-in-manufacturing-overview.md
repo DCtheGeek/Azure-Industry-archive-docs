@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: On-demand, scalable, high-power compute 
+title: On-demand, high-power, Azure compute services for manufacturing 
 author: ercenk
 ms.author: ercenk
-ms.date: 07/11/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Overview for the high power compute need in Manufacturing industry.

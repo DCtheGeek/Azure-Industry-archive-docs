@@ -1,6 +1,6 @@
 ---
 # required metadata
-title: Oveview—guide to moving Actuarial risk analysis to Azure 
+title: Overview—guide to moving Actuarial risk analysis to Azure 
 author: dstarr
 ms.author: dastarr
 ms.date: 11/20/2019

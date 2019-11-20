@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Predictive Maintenance Solution 
+title: Predictive maintenance with Azure ML and IoT in manufacturing
 author: ercenk
 ms.author: ercenk
-ms.date: 05/03/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Solution description of how to develop Predictive Maintenance for Manufacturing customers on Azure.
