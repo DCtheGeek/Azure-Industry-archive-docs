@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Data Management in Banking Overview 
+title: Overview-Manage data estates for banks with Azure services
 author: dstarr
 ms.author: dastarr
-ms.date: 10/30/2019
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Describes techniques of managing data in a regulated banking environment using Microsoft Azure.

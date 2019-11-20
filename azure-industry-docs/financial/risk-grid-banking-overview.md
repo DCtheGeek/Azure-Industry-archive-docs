@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Risk Grid Computing in Banking Overview 
+title: Grid Computing risk analysis with Azure Batch, Azure Data Lake
 author: dstarr
 ms.author: dastarr
-ms.date: 04/12/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Presents the business considerations of implementing Risk Grid Computing in Banking on Azure.
@@ -81,7 +81,7 @@ Along with efficient use of resources, this arrangement provides other benefits.
 
 For times when more compute capacity is needed, such as quarterly valuations, the extra capacity can also come from Azure Batch auto-scaling. Auto-scaling provides elasticity to your Batch solution. By scaling resources to match needed load, Azure provides significantly greater capacity at a lower cost than owning the hardware.
 
-Most commercial grid products do support some form of burst to cloud, enabling easier proofs of concept for your risk analysis load. For example, [Microsoft HPC Pack](/azure/virtual-machines/windows/hpcpack-cluster-options?WT.mc_id=gridbank-docs-dastarr) can run in Azure, as can products from companies like TIBCO, Univa, and others. Many of these 3rd party tools or systems are available through the [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/?WT.mc_id=gridbank-docs-dastarr).
+Most commercial grid products do support some form of burst to cloud, enabling easier proofs of concept for your risk analysis load. For example, [Microsoft HPC Pack](/azure/virtual-machines/windows/hpcpack-cluster-options?WT.mc_id=gridbank-docs-dastarr) can run in Azure, as can products from companies like TIBCO, Univa, and others. Many of these 3rd party tools or systems are available through the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/?WT.mc_id=gridbank-docs-dastarr).
 
 ### Migrating additional resources to the cloud
 

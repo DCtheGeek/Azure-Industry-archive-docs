@@ -1,12 +1,12 @@
 ---
 # required metadata
-title: Mobile Bank Fraud 
-author: dstarr
-ms.author: dastarr
-ms.date: 10/30/2018
+title: Overview—Develop fast mobile bank fraud solutions with Azure services
+author: kbaroni
+ms.author: kbaroni
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
-description: An overview of mobile fraud in banking
+description: Explains how a fraudulent transaction may be detected in 2 seconds
 ---
 # Mobile Bank Fraud
 

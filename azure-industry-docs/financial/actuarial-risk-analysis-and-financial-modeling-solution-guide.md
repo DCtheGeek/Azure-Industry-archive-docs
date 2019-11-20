@@ -1,12 +1,12 @@
 ---
 # required metadata
-title: Actuarial risk analysis and modeling solution guide 
+title: Guide to moving actuarial risk analysis to Azure  
 author: scseely
 ms.author: scseely
-ms.date: 08/23/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
-description: This solution guide explains how an actuarial developer can move their existing solution plus supporting infrastructure into Azure.
+description: How an actuarial developer can move an existing solution plus supporting infrastructure to Azure.
 ---
 
 # Actuarial risk analysis and financial modeling solution guide
