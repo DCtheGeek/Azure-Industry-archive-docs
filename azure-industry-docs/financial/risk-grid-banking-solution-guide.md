@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Risk Grid Computing in Solution Guide
+title: Overview–Grid Computing risk analysis Azure Batch, Azure Data Lake
 author: dstarr
 ms.author: dastarr
-ms.date: 5/2/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Introduces technical aspects of implementing Azure Batch for Risk Grid Computing in Banking. 
@@ -201,13 +201,13 @@ There are other techniques for bridging the gap between Azure and on-premises re
 
 ExpressRoute ties your on-premises or datacenter network to Azure through a private connection facilitated by a connectivity partner, such as your current Internet Service Provider (ISP?WT.mc_id=gridbanksg-docs-dastarr). This enables both networks to see each other as the same network instance, providing seamless access between networks. Network integration is critical when you want to integrate existing on-premises systems with an Azure network, and ExpressRoute offers the fastest connection speeds possible.
 
-Additional pricing information for Azure ExpressRoute [can be found here](https://azure.microsoft.com/en-us/pricing/details/expressroute/?WT.mc_id=gridbanksg-docs-dastarr).
+Additional pricing information for Azure ExpressRoute [can be found here](https://azure.microsoft.com/pricing/details/expressroute/?WT.mc_id=gridbanksg-docs-dastarr).
 
 ### VPN Gateway
 
 A VPN Gateway is another way to connect your network to Azure. The downside of this model is traffic flows over the Internet. The connection can less resilient as a result and network speeds cannot reach those of ExpressRoute, however this may not be a barrier for a risk grid computing scenario as reading data files is typically a fast operation.
 
-Additional pricing information for VPN Gateway [can be found here](https://azure.microsoft.com/en-us/pricing/details/expressroute/?WT.mc_id=gridbanksg-docs-dastarr).
+Additional pricing information for VPN Gateway [can be found here](https://azure.microsoft.com/pricing/details/expressroute/?WT.mc_id=gridbanksg-docs-dastarr).
 
 ### Choices for connectivity details
 
@@ -246,8 +246,8 @@ Several configurations may be applicable in your situation. To help with decisio
 
 - [See this article](/azure/vpn-gateway/vpn-gateway-about-vpngateways?WT.mc_id=gridbanksg-docs-dastarr) for VPN Gateway configuration alternatives.
 - Learn about [ExpressRoute connectivity models](/azure/expressroute/expressroute-connectivity-models?WT.mc_id=gridbanksg-docs-dastarr).
-- Calculate [ExpressRoute pricing](https://azure.microsoft.com/en-us/pricing/details/expressroute/?WT.mc_id=gridbanksg-docs-dastarr).
-- Calculate [VPN Gateway pricing](https://azure.microsoft.com/en-us/pricing/details/vpn-gateway/?WT.mc_id=gridbanksg-docs-dastarr).
+- Calculate [ExpressRoute pricing](https://azure.microsoft.com/pricing/details/expressroute/?WT.mc_id=gridbanksg-docs-dastarr).
+- Calculate [VPN Gateway pricing](https://azure.microsoft.com/pricing/details/vpn-gateway/?WT.mc_id=gridbanksg-docs-dastarr).
 
 ## Security considerations
 

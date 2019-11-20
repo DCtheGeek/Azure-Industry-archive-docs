@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Actuarial risk analysis and modeling solution guide 
+title: Oveview—guide to moving Actuarial risk analysis to Azure 
 author: dstarr
 ms.author: dastarr
-ms.date: 08/29/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: This overview introduces how an actuarial developer can move their existing solution plus supporting infrastructure into Azure.
