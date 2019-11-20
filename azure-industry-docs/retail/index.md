@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Retail Industry 
+title: Azure for Industries-Retail 
 author: dstarr
 ms.author: dastarr
-ms.date: 04/25/2018
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Retail use cases from Azure Industry Experiences

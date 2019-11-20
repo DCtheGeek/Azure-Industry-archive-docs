@@ -1,6 +1,6 @@
 ---
 # required metadata
-title: Extracting actionable insights from IoT data overview
+title: Extracting actionable insights from IoT data summary
 description: Extract insights from IoT data with Azure services. Overview for the solution guide.
 author: ercenk
 ms.author: ercenk

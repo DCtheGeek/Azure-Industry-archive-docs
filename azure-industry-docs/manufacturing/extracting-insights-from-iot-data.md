@@ -1,6 +1,6 @@
 ---
 # required metadata
-title: Extracting actionable insights from IoT data
+title: Architecture to extract insights from IoT for manufacturing
 description: Extract insights from IoT data with Azure services.
 author: ercenk
 ms.author: ercenk

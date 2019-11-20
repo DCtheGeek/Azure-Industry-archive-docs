@@ -1,9 +1,9 @@
 ---
 # required metadata
-title: Health & Life Sciences Industry
+title:  Azure for Industry-Health & Life Sciences
 author: dstarr
 ms.author: dastarr
-ms.date: 11/07/2019
+ms.date: 11/20/2019
 ms.topic: article
 ms.service: industry
 description: Health and Life Sciences use cases from Azure Industry Experiences
