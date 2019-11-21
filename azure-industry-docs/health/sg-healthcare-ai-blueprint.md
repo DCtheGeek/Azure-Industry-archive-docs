@@ -157,7 +157,7 @@ The Azure blueprint installation doesn’t include more services than those need
 
 New resources, like [Cosmos DB](/azure/cosmos-db/introduction?WT.mc_id=ms-docs-dastarr) or a new [Azure Functions](/azure/azure-functions/functions-overview?WT.mc_id=ms-docs-dastarr), may be added to the solution as more Azure capabilities are needed. When adding new resources or services, ensure they are configured to meet security and privacy policies to remain compliant with regulations and policy.
 
-New resources and services may be created with [Azure REST APIs](https://docs.microsoft.com/rest/api/?view=Azure&WT.mc_id=ms-docs-dastarr), [Azure PowerShell scripting](https://docs.microsoft.com/powershell/azure/get-started-azureps?view=azurermps-6.6.0&WT.mc_id=ms-docs-dastarr), or by using the [Azure Portal](http://portal.azure.com/?WT.mc_id=ms-docs-dastarr).
+New resources and services may be created with [Azure REST APIs](https://docs.microsoft.com/rest/api/?view=Azure&WT.mc_id=ms-docs-dastarr), [Azure PowerShell scripting](https://docs.microsoft.com/powershell/azure/get-started-azureps?view=azurermps-6.6.0&WT.mc_id=ms-docs-dastarr), or by using the [Azure Portal](https://portal.azure.com/?WT.mc_id=ms-docs-dastarr).
 
 ## Using machine learning with the blueprint
 
