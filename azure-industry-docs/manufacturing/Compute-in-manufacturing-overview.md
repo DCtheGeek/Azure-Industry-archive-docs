@@ -91,14 +91,14 @@ for high-performance computing. They feature specialized processors paired with
 DDR4 memory, and they allow compute-intensive solutions to run effectively, both
 on Linux and Windows installations. And they are available in several sizes. See
 [High performance compute VM
-sizes](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-hpc?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json?WT.mc_id=computeinmanufacturing-docs-ercenk).
+sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-hpc?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json?WT.mc_id=computeinmanufacturing-docs-ercenk).
 To see how Azure supports HPC in other ways, see Big compute: [HPC &
-Batch](https://azure.microsoft.com/en-us/solutions/big-compute/?WT.mc_id=computeinmanufacturing-docs-ercenk).
+Batch](https://azure.microsoft.com/solutions/big-compute/?WT.mc_id=computeinmanufacturing-docs-ercenk).
 
 The Azure platform enables solutions to scale up and out. One of the commonly
 known software packages for simulation is STAR-CCM+, from CD-adapco. [A
 published
-study](https://azure.microsoft.com/en-us/blog/availability-of-star-ccm-on-microsoft-azure/?WT.mc_id=computeinmanufacturing-docs-ercenk)
+study](https://azure.microsoft.com/blog/availability-of-star-ccm-on-microsoft-azure/?WT.mc_id=computeinmanufacturing-docs-ercenk)
 demonstrating STAR-CCM+ running “Le Mans 100 million cell” computational fluid
 dynamics (CFD) model provides a glimpse of the scalability of the platform. The
 following chart demonstrates the observed scalability as more cores are added
@@ -109,7 +109,7 @@ when running the simulation:
 Another popular engineering analysis software package is ANSYS CFD. It enables
 engineers to perform multi-physics analysis, including fluid forces, thermal
 effects, structural integrity and electromagnetic radiation. [The published
-study](https://azure.microsoft.com/en-us/blog/ansys-cfd-and-microsoft-azure-perform-the-best-hpc-scalability-in-the-cloud/?WT.mc_id=computeinmanufacturing-docs-ercenk)
+study](https://azure.microsoft.com/blog/ansys-cfd-and-microsoft-azure-perform-the-best-hpc-scalability-in-the-cloud/?WT.mc_id=computeinmanufacturing-docs-ercenk)
 demonstrates the scalability of the solution on Azure, showing similar results.
 
 ![https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/77129585-f25c-4c29-b22b-80c627d03daa.png](assets/bigcompute-assets/fluent.png)
@@ -117,9 +117,9 @@ demonstrates the scalability of the solution on Azure, showing similar results.
 Instead of investing in a local compute cluster, a software package that
 requires parallel execution can be deployed on Azure virtual machines, or
 [virtual machine scale sets
-(VMSS)](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview?WT.mc_id=computeinmanufacturing-docs-ercenk)
+(VMSS)](https://docs.microsoft.com/azure/virtual-machine-scale-sets/overview?WT.mc_id=computeinmanufacturing-docs-ercenk)
 by using the [HPC and GPU
-VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-hpc?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json?WT.mc_id=computeinmanufacturing-docs-ercenk)
+VM](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-hpc?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json?WT.mc_id=computeinmanufacturing-docs-ercenk)
 families for an all-cloud solution.
 
 ### Burst to Azure
@@ -143,18 +143,18 @@ and HPC batch jobs efficiently. Azure Batch allows jobs that use the Message
 Passing Interface (MPI) API. Batch supports both [Microsoft
 MPI](https://msdn.microsoft.com/library/bb524831(v=vs.85).aspx?WT.mc_id=computeinmanufacturing-docs-ercenk)
 and Intel MPI with
-[HPC](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes-hpc?WT.mc_id=computeinmanufacturing-docs-ercenk)
+[HPC](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-hpc?WT.mc_id=computeinmanufacturing-docs-ercenk)
 and
-[GPU](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes-gpu?WT.mc_id=computeinmanufacturing-docs-ercenk)
+[GPU](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-gpu?WT.mc_id=computeinmanufacturing-docs-ercenk)
 optimized VM families. Microsoft also acquired [Cycle
 Computing](https://blogs.microsoft.com/blog/2017/08/15/microsoft-acquires-cycle-computing-accelerate-big-computing-cloud/?WT.mc_id=computeinmanufacturing-docs-ercenk),
 which provides a solution offering a higher level of abstraction for running
 clusters on Azure. Another option is to run [Cray
 supercomputers](https://www.cray.com/solutions/supercomputing-as-a-service/cray-in-azure)
 on Azure with seamless access to complementary Azure services such as [Azure
-Storage](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/premium-storage?WT.mc_id=computeinmanufacturing-docs-ercenk)
+Storage](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage?WT.mc_id=computeinmanufacturing-docs-ercenk)
 and [Azure Data
-Lake](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-overview?WT.mc_id=computeinmanufacturing-docs-ercenk).
+Lake](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-overview?WT.mc_id=computeinmanufacturing-docs-ercenk).
 
 ## Generative Design
 
@@ -184,9 +184,9 @@ alternative. The net result is you need massive compute environments.
 
 Azure’s multiple options for scaling up on demand for the compute needs, through
 [Azure
-Batch](https://docs.microsoft.com/en-us/azure/batch/batch-technical-overview?WT.mc_id=computeinmanufacturing-docs-ercenk),
+Batch](https://docs.microsoft.com/azure/batch/batch-technical-overview?WT.mc_id=computeinmanufacturing-docs-ercenk),
 and
-[VMSS](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview?WT.mc_id=computeinmanufacturing-docs-ercenk)
+[VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/overview?WT.mc_id=computeinmanufacturing-docs-ercenk)
 are natural destinations for those workloads.
 
 ## Machine Learning (ML)
@@ -214,7 +214,7 @@ the following.
 ![](assets/bigcompute-assets/aipipeline.png)
 
 [Selecting the
-algorithm](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice?WT.mc_id=computeinmanufacturing-docs-ercenk)
+algorithm](https://docs.microsoft.com/azure/machine-learning/studio/algorithm-choice?WT.mc_id=computeinmanufacturing-docs-ercenk)
 depends on the size, quality and the nature of the data, as well as the type of
 the answer that is expected. Based on the input size and the selected algorithm,
 and the computing environment, this step usually requires big compute intensive
@@ -231,14 +231,14 @@ The major driver for the decision is the business problem. If the problem
 requires a large data set to be processed with a suitable algorithm, the
 critical factor is cloud scale compute resources for training the algorithm.
 [Azure Batch
-AI](https://azure.microsoft.com/en-us/services/batch-ai/?WT.mc_id=computeinmanufacturing-docs-ercenk)
+AI](https://azure.microsoft.com/services/batch-ai/?WT.mc_id=computeinmanufacturing-docs-ercenk)
 is a service that trains AI models in parallel, and at scale.
 
 With Azure Batch AI, a data scientist can develop a solution on the workstation
 using the [Azure Data Science Virtual Machine
-(DSVM)](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/overview?WT.mc_id=computeinmanufacturing-docs-ercenk)
+(DSVM)](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/overview?WT.mc_id=computeinmanufacturing-docs-ercenk)
 or [Azure Deep Learning Virtual Machine
-(DLVM)](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview?WT.mc_id=computeinmanufacturing-docs-ercenk)
+(DLVM)](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview?WT.mc_id=computeinmanufacturing-docs-ercenk)
 and push the training to the cluster. DSVM and DLVM are specially configured VM
 images with a rich set of preinstalled set of tools and samples.
 
@@ -261,12 +261,12 @@ Azure.
 ## Next Steps
 
 - Set up a cloud workstation by deploying an [NV series
-    VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-gpu?WT.mc_id=computeinmanufacturing-docs-ercenk)
+    VM](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-gpu?WT.mc_id=computeinmanufacturing-docs-ercenk)
 
 - Review the
-    [options](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/high-performance-computing?WT.mc_id=computeinmanufacturing-docs-ercenk)
+    [options](https://docs.microsoft.com/azure/virtual-machines/linux/high-performance-computing?WT.mc_id=computeinmanufacturing-docs-ercenk)
     for deploying a tool for your design needs to take advantage of Azure HPC
     capabilities
 
 - Learn the possibilities with [Azure Machine
-    Learning](https://docs.microsoft.com/en-us/azure/machine-learning/?WT.mc_id=computeinmanufacturing-docs-ercenk)
+    Learning](https://docs.microsoft.com/azure/machine-learning/?WT.mc_id=computeinmanufacturing-docs-ercenk)
