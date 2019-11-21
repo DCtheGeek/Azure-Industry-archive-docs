@@ -38,7 +38,7 @@ The technology has already taken hold with major e-commerce brands, who have als
 
 Fortunately, you don't need vast amounts of computing power to profit from visual search. Any business with an image catalog can take advantage of Microsoft's AI expertise built into its Azure services.
 
-[Bing Visual Search](https://azure.microsoft.com/en-us/services/cognitive-services/bing-visual-search/?WT.mc_id=vsearchgio-article-gmarchet) API provides a way to extract context information from images, identifying—for instance—home furnishings, fashion, several kinds of products, etc.
+[Bing Visual Search](https://azure.microsoft.com/services/cognitive-services/bing-visual-search/?WT.mc_id=vsearchgio-article-gmarchet) API provides a way to extract context information from images, identifying—for instance—home furnishings, fashion, several kinds of products, etc.
 
 It will also return visually similar images out of its own catalog, products with relative shopping sources, related searches. While interesting, this will be of limited use if your company is not one of those sources.
 
@@ -92,7 +92,7 @@ As you retrieve images from different sources or use several machine learning mo
 
 You may also want to require a minimum number of useful data points (e.g. an image identifier or key, a product sku, a description, a tag field).
 
-[Azure CosmosDB](https://azure.microsoft.com/en-us/services/cosmos-db/?WT.mc_id=vsearchgio-article-gmarchet) offers the required flexibility and a variety of access mechanisms for applications built on top of it (which will help with your catalog search). However, one has to be careful to drive the best price/performance. CosmosDB allows document attachments to be stored, but there is a total limit per account and it may be a costly proposition. It is common practice to store the actual image files in blobs and insert a link to them in the database. In the case of CosmosDB this implies creating a document that contains the catalog properties associated to that image (sku, tag etc.) and an attachment that contains the URL of the image file (e.g. on Azure blob storage, OneDrive etc).
+[Azure CosmosDB](https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=vsearchgio-article-gmarchet) offers the required flexibility and a variety of access mechanisms for applications built on top of it (which will help with your catalog search). However, one has to be careful to drive the best price/performance. CosmosDB allows document attachments to be stored, but there is a total limit per account and it may be a costly proposition. It is common practice to store the actual image files in blobs and insert a link to them in the database. In the case of CosmosDB this implies creating a document that contains the catalog properties associated to that image (sku, tag etc.) and an attachment that contains the URL of the image file (e.g. on Azure blob storage, OneDrive etc).
 
  ![](./assets/visual-search-use-case-overview/cosmosdb-data-model.png)
 
@@ -122,9 +122,9 @@ You may want to modify and retrain them so they produce both a category predicti
 
 Whether you choose pre-trained models or to develop your own, you will still need to decide where to run the featurization and/or training of the model itself.
 
-Azure offers several options: VMs, Azure Batch, [Batch AI](https://azure.microsoft.com/en-us/services/batch-ai/?WT.mc_id=vsearchgio-article-gmarchet), Databricks clusters. In all cases, however, the best price/performance is given by the use of GPUs.
+Azure offers several options: VMs, Azure Batch, [Batch AI](https://azure.microsoft.com/services/batch-ai/?WT.mc_id=vsearchgio-article-gmarchet), Databricks clusters. In all cases, however, the best price/performance is given by the use of GPUs.
 
-Microsoft has also recently announced the availability of FPGAs for fast computation at a fraction of the GPU cost (project [Brainwave](https://www.microsoft.com/en-us/research/blog/microsoft-unveils-project-brainwave/?WT.mc_id=vsearchgio-article-gmarchet)). However, at the time of writing, this offering is limited to certain network architectures, so you will need to evaluate their performance closely.
+Microsoft has also recently announced the availability of FPGAs for fast computation at a fraction of the GPU cost (project [Brainwave](https://www.microsoft.com/research/blog/microsoft-unveils-project-brainwave/?WT.mc_id=vsearchgio-article-gmarchet)). However, at the time of writing, this offering is limited to certain network architectures, so you will need to evaluate their performance closely.
 
 ### Similarity Measure or Distance
 
@@ -140,7 +140,7 @@ The combination of vector size and distance measure will determine how computati
 
 Once similarity is defined, we need to devise an efficient method to retrieve the closest N items to the one passed as input, then return a list of identifiers. This is also known as "image ranking". On a large data set, the time to compute every distance is prohibitive, so we use approximate nearest-neighbor algorithms. Several open source libraries exist for those, so you won't have to code them from scratch.
 
-Finally, memory and computation requirements will determine the choice of deployment technology for the trained model, as well high availability. Typically, the search space will be partitioned, and several instances of the ranking algorithm will run in parallel. One option that allows for scalability and availability is [Azure Kubernetes](https://azure.microsoft.com/en-us/services/container-service/kubernetes/?WT.mc_id=vsearchgio-article-gmarchet) clusters. In that case it is advisable to deploy the ranking model across several containers (handling a partition of the search space each) and several nodes (for high availability).
+Finally, memory and computation requirements will determine the choice of deployment technology for the trained model, as well high availability. Typically, the search space will be partitioned, and several instances of the ranking algorithm will run in parallel. One option that allows for scalability and availability is [Azure Kubernetes](https://azure.microsoft.com/services/container-service/kubernetes/?WT.mc_id=vsearchgio-article-gmarchet) clusters. In that case it is advisable to deploy the ranking model across several containers (handling a partition of the search space each) and several nodes (for high availability).
 
 ## Next steps
 
@@ -152,7 +152,7 @@ Implementing visual search need not be complex. You can use Bing or build your o
 
 ### Develop
 
-- To begin creating a customized service, see [Bing Visual Search API Overview](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-visual-search/overview/?WT.mc_id=vsearchgio-article-gmarchet)
+- To begin creating a customized service, see [Bing Visual Search API Overview](https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/overview/?WT.mc_id=vsearchgio-article-gmarchet)
 - To create your first request, see the quickstarts: [C#](https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/quickstarts/csharp) | [Java](https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/quickstarts/java) | [node.js](https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/quickstarts/nodejs) | [Python](https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/quickstarts/python)
 - Familiarize yourself with the [Visual Search API Reference](https://aka.ms/bingvisualsearchreferencedoc).
 

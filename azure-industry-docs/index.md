@@ -21,7 +21,7 @@ Learn how to use Azure to build solutions for common industry use cases. Use cas
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img alt="Financial Services" src="https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/financial.svg">
+                            <img alt="Financial Services" src="https://azure.microsoft.com/patterns/styles/glyphs-icons/financial.svg">
                         </div>
                     </div>
                     <div class="cardText">
@@ -39,7 +39,7 @@ Learn how to use Azure to build solutions for common industry use cases. Use cas
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img alt="Health &amp; Life Sciences" src="https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/healthcare.svg">
+                            <img alt="Health &amp; Life Sciences" src="https://azure.microsoft.com/patterns/styles/glyphs-icons/healthcare.svg">
                         </div>
                     </div>
                     <div class="cardText">
@@ -60,7 +60,7 @@ Learn how to use Azure to build solutions for common industry use cases. Use cas
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img alt="Manufacturing" src="https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/discrete-manufacturing.svg">
+                            <img alt="Manufacturing" src="https://azure.microsoft.com/patterns/styles/glyphs-icons/discrete-manufacturing.svg">
                         </div>
                     </div>
                     <div class="cardText">
@@ -78,7 +78,7 @@ Learn how to use Azure to build solutions for common industry use cases. Use cas
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img alt="Retail" src="https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/retailers.svg">
+                            <img alt="Retail" src="https://azure.microsoft.com/patterns/styles/glyphs-icons/retailers.svg">
                         </div>
                     </div>
                     <div class="cardText">
