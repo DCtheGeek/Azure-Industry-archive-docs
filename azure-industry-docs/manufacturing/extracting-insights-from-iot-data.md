@@ -7,7 +7,7 @@ ms.author: ercenk
 manager: gmarchet
 ms.service: industry
 ms.topic: article
-ms.date: 09/26/2018
+ms.date: 11/28/2019
 ---
 # Extracting actionable insights from IoT data
 
@@ -79,7 +79,8 @@ If the data is available externally and is accessible from internet, several Azu
 
 - Custom code deployed in various Azure compute services, such as [App Service](https://docs.microsoft.com/azure/app-service/?WT.mc_id=iotinsightssoln-docs-ercenk),  [Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/?WT.mc_id=iotinsightssoln-docs-ercenk) (AKS), [Container Instances](https://docs.microsoft.com/azure/container-instances/?WT.mc_id=iotinsightssoln-docs-ercenk), or [Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-overview?WT.mc_id=iotinsightssoln-docs-ercenk).
 -	[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/?WT.mc_id=iotinsightssoln-docs-ercenk)
--	[Azure Data Factory Activities](https://docs.microsoft.com/azure/data-factory/?WT.mc_id=iotinsightssoln-docs-ercenk)
+-	[Copy activity in Azure Data Factory](/azure/data-factory/copy-activity-overview
+?WT.mc_id=iotinsightssoln-docs-ercenk)
 -	[Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=iotinsightssoln-docs-ercenk)
 -	[BizTalk Services](https://azure.microsoft.com/services/biztalk-services/)
 

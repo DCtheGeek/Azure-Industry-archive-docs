@@ -7,7 +7,7 @@ ms.author: ercenk
 manager: gmarchet
 ms.service: industry
 ms.topic: article
-ms.date: 09/26/2018
+ms.date: 11/28/2019
 ---
 # Extracting actionable insights from IoT data
 
