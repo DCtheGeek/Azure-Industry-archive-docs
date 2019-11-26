@@ -216,7 +216,7 @@ We covered a lot of concepts and would like to give the reader a set of starting
   -[Using Azure Cosmos DB with .NET](https://docs.microsoft.com/azure/cosmos-db/sql-api-get-started?WT.mc_id=iotinsightssoln-docs-ercenk)
 - Cold path
   - [Transforming data in the cloud by using a Spark activity](https://docs.microsoft.com/azure/data-factory/tutorial-transform-data-spark-portal?WT.mc_id=iotinsightssoln-docs-ercenk) in Azure Data Factory
-  - [Analyzing simulated device data on Time Series Insights](https://docs.microsoft.com/azure/time-series-insights/tutorial-create-populate-tsi-environment?WT.mc_id=iotinsightssoln-docs-ercenk)
+  - [Tutorial: Create an Azure Time Series Insights environment](/azure/time-series-insights/tutorial-create-populate-tsi-environment?WT.mc_id=iotinsightssoln-docs-ercenk)
 - Analysis clients
   - [Learning Power BI](https://docs.microsoft.com/power-bi/guided-learning/?WT.mc_id=iotinsightssoln-docs-ercenk)
   - [Creating a Time Series Insights SPA](https://docs.microsoft.com/azure/time-series-insights/tutorial-create-tsi-sample-spa?WT.mc_id=iotinsightssoln-docs-ercenk)
