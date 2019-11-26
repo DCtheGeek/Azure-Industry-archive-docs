@@ -7,7 +7,7 @@ ms.author: ercenk
 manager: gmarchet
 ms.service: industry
 ms.topic: article
-ms.date: 09/26/2018
+ms.date: 11/28/2019
 ---
 # Extracting actionable insights from IoT data
 
@@ -78,10 +78,11 @@ Usually, the data is not accessible from the internet. A common pattern is to us
 If the data is available externally and is accessible from internet, several Azure services can be used to access, transform, and enrich the data. Among those options are:
 
 - Custom code deployed in various Azure compute services, such as [App Service](https://docs.microsoft.com/azure/app-service/?WT.mc_id=iotinsightssoln-docs-ercenk),  [Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/?WT.mc_id=iotinsightssoln-docs-ercenk) (AKS), [Container Instances](https://docs.microsoft.com/azure/container-instances/?WT.mc_id=iotinsightssoln-docs-ercenk), or [Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-overview?WT.mc_id=iotinsightssoln-docs-ercenk).
--	[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/?WT.mc_id=iotinsightssoln-docs-ercenk)
--	[Azure Data Factory Activities](https://docs.microsoft.com/azure/data-factory/?WT.mc_id=iotinsightssoln-docs-ercenk)
--	[Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=iotinsightssoln-docs-ercenk)
--	[BizTalk Services](https://azure.microsoft.com/services/biztalk-services/)
+- [Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/?WT.mc_id=iotinsightssoln-docs-ercenk)
+- [Pipelines and activities in Azure Data Factory](/azure/data-factory/copy-activity-overview
+?/WT.mc_id=iotinsightssoln-docs-ercenk)
+- [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=iotinsightssoln-docs-ercenk)
+- [BizTalk Services](https://azure.microsoft.com/services/biztalk-services/)
 
 Each of the services above have their own benefits and costs, depending on the scenario. For example, Logic Apps provide a means for [transforming XML documents](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-transform?WT.mc_id=iotinsightssoln-docs-ercenk). However, the data can be an overly complex XML document, so it may not be practical to develop a large XSLT script to transform the data. In this case, one might develop a hybrid solution using multiple microservices from different Azure services. For example, a microservice, implemented in Azure Logic Apps, can poll an HTTP endpoint, store the raw result temporarily, and notify another microservice. The other microservice—which transforms the message—can be custom code hosted on [Azure Functions Host](https://github.com/Azure/azure-functions-host).  
 
@@ -95,10 +96,10 @@ The messages can be timestamped at reception, or they may contain a timestamp to
 To analyze the data as a stream, we can do queries on the data based on time windows to identify patterns and relationships. There are various services on the Azure platform that can ingest data at high throughput.
 Choosing between the services below depends on the needs of the project, such as device management, protocol support, scalability, team’s preference of programming model etc. For example, team may have a preference to use Kafka because of their experience, or the need to have a Kafka broker for the solution. Or, for another case, the project may need the data ingestion system to take advantage of [IoT Hub Device Provisioning Service’s TPM Key Attestation](https://docs.microsoft.com/azure/iot-dps/?WT.mc_id=iotinsightssoln-docs-ercenk) to secure the access of the devices to the ingestion point.
 
--	[Azure IoT Hub](https://docs.microsoft.com/azure/iot-hub/?WT.mc_id=iotinsightssoln-docs-ercenk) is a bi-directional communication hub between IoT applications and the devices. It is a scalable service that enables full-featured IoT solutions by providing secure communications, message routing, integration with other Azure services, and management features to control and configure the devices.
+- [Azure IoT Hub](https://docs.microsoft.com/azure/iot-hub/?WT.mc_id=iotinsightssoln-docs-ercenk) is a bi-directional communication hub between IoT applications and the devices. It is a scalable service that enables full-featured IoT solutions by providing secure communications, message routing, integration with other Azure services, and management features to control and configure the devices.
 
--	[Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-about?WT.mc_id=iotinsightssoln-docs-ercenk) is a high-scale ingestion-only service for collecting telemetry data from concurrent sources at exceedingly high throughput rates.
--	[Apache Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-introduction?WT.mc_id=iotinsightssoln-docs-ercenk) is a managed service that hosts [Apache Kafka](https://kafka.apache.org/). Apache Kafka is an open-source distributed streaming platform that also provides message broker functionality. The hosted service has a Service Level Agreement (SLA) of 99.9% on Kafka uptime.
+- [Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-about?WT.mc_id=iotinsightssoln-docs-ercenk) is a high-scale ingestion-only service for collecting telemetry data from concurrent sources at exceedingly high throughput rates.
+- [Apache Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-introduction?WT.mc_id=iotinsightssoln-docs-ercenk) is a managed service that hosts [Apache Kafka](https://kafka.apache.org/). Apache Kafka is an open-source distributed streaming platform that also provides message broker functionality. The hosted service has a Service Level Agreement (SLA) of 99.9% on Kafka uptime.
 
 ## Processing and storing the data
 
@@ -109,9 +110,9 @@ Microsoft’s Azure IoT Reference Architecture presents a recommended data flow 
 
 The Lambda architecture addresses this problem by creating two paths for data flow. All data coming into the system goes through these two paths:
 
--	A batch layer (cold path) stores all the incoming data in its raw form and performs batch processing on the data. The result of this processing is stored as a batch view. It is a slow processing pipeline executing complex analysis, for example combining data from multiple sources and over a longer period (hours, days, or longer), and generating new information such as reports, machine learning models, etcetera.
--	A speed layer (warm path) analyzes data in real time. This layer is designed for low latency, at the expense of accuracy. It is a faster processing pipeline that archives and displays incoming messages, and analyzes these records generating short term critical information and actions such as alarms.
--	The batch layer feeds into a “serving layer,” which responds to queries. The batch layer indexes the batch view for efficient querying. The speed layer updates the serving layer with incremental updates based on the most recent data.
+- A batch layer (cold path) stores all the incoming data in its raw form and performs batch processing on the data. The result of this processing is stored as a batch view. It is a slow processing pipeline executing complex analysis, for example combining data from multiple sources and over a longer period (hours, days, or longer), and generating new information such as reports, machine learning models, etcetera.
+- A speed layer (warm path) analyzes data in real time. This layer is designed for low latency, at the expense of accuracy. It is a faster processing pipeline that archives and displays incoming messages, and analyzes these records generating short term critical information and actions such as alarms.
+- The batch layer feeds into a “serving layer,” which responds to queries. The batch layer indexes the batch view for efficient querying. The speed layer updates the serving layer with incremental updates based on the most recent data.
 
 The following image shows five blocks that represent stages of transformation. The first block is the data stream, which feeds both the speed layer and batch layer in parallel. Both layers feed the serving layer, The speed layer and the serving layer both feed the analytics client.
 ![Lambda architecture.](assets/extracting-insights-from-iot/lambda-schematic.png)
@@ -160,9 +161,9 @@ The cold path contains the long-term data store for the solution. It also contai
   
 [Azure Time Series Insights](https://docs.microsoft.com/azure/time-series-insights/?WT.mc_id=iotinsightssoln-docs-ercenk) (TSI) is an analytics, storage and visualization service for time series data. It provides SQL-like filtering and aggregation, alleviating the need for user-defined functions. TSI can receive data from Event Hubs, IoT Hub or Azure Blob storage. All data in TSI is stored in-memory and in SSDs, which ensures that the data is always ready for interactive analytics. For example, a typical aggregation over tens of millions of events returns on the order of milliseconds. It also provides visualizations such as overlays of different time series, dashboard comparisons, accessible tabular views, and heat maps. Key features of TSI include:
 
--	Built-in visualization services for solutions that do not need to report on data immediately. TSI has an approximate latency for querying data records of 30-60 seconds. 
--	The ability to query large sets of data.
--	Any number of users can conduct an unlimited number of queries for no extra cost.
+- Built-in visualization services for solutions that do not need to report on data immediately. TSI has an approximate latency for querying data records of 30-60 seconds. 
+- The ability to query large sets of data.
+- Any number of users can conduct an unlimited number of queries for no extra cost.
 
 TSI has a maximum retention of 400 days and a maximum storage limit of 3 TB. If you require a longer retention span, or more capacity, use a cold storage database (swapping data into TSI for querying as needed).
 
@@ -215,7 +216,7 @@ We covered a lot of concepts and would like to give the reader a set of starting
   -[Using Azure Cosmos DB with .NET](https://docs.microsoft.com/azure/cosmos-db/sql-api-get-started?WT.mc_id=iotinsightssoln-docs-ercenk)
 - Cold path
   - [Transforming data in the cloud by using a Spark activity](https://docs.microsoft.com/azure/data-factory/tutorial-transform-data-spark-portal?WT.mc_id=iotinsightssoln-docs-ercenk) in Azure Data Factory
-  - [Analyzing simulated device data on Time Series Insights](https://docs.microsoft.com/azure/time-series-insights/tutorial-create-populate-tsi-environment?WT.mc_id=iotinsightssoln-docs-ercenk)
+  - [Tutorial: Create an Azure Time Series Insights environment](/azure/time-series-insights/tutorial-create-populate-tsi-environment?WT.mc_id=iotinsightssoln-docs-ercenk)
 - Analysis clients
   - [Learning Power BI](https://docs.microsoft.com/power-bi/guided-learning/?WT.mc_id=iotinsightssoln-docs-ercenk)
   - [Creating a Time Series Insights SPA](https://docs.microsoft.com/azure/time-series-insights/tutorial-create-tsi-sample-spa?WT.mc_id=iotinsightssoln-docs-ercenk)
@@ -240,7 +241,7 @@ Let’s quickly review those pillars:
 
 Each Azure service provides options for vertical and horizontal scaling. We strongly recommend considering the scalability requirements while designing the solution.
 
-As for the systems providing the source data, we need to be careful about not to overwhelm the system, and basically causing a denial of service (DoS) attack on the system, by querying it too frequently. If you are polling the system, you should keep in mind that adjusting the polling frequency has two effects, the granularity of the data (the more often you query, the closer it gets to real-time) and the load created on the remote system.	
+As for the systems providing the source data, we need to be careful about not to overwhelm the system, and basically causing a denial of service (DoS) attack on the system, by querying it too frequently. If you are polling the system, you should keep in mind that adjusting the polling frequency has two effects, the granularity of the data (the more often you query, the closer it gets to real-time) and the load created on the remote system.
 
 **Security**: If the remote system is accessed by symmetrical or asymmetrical keys, we recommend the secrets to be kept in [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/?WT.mc_id=iotinsightssoln-docs-ercenk).
 
