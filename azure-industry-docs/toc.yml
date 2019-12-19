@@ -31,12 +31,6 @@
           href: health/overview-healthcare-ai-blueprint.md
         - name: Solution Guide
           href: health/sg-healthcare-ai-blueprint.md
-      - name: Biomedical Entity Recognition
-        href: /azure/machine-learning/desktop-workbench/scenario-tdsp-biomedical-recognition
-        maintainContext: true
-      - name: HL7 FHIR health care record changes
-        href: /azure/cosmos-db/change-feed-hl7-fhir-logic-apps
-        maintainContext: true
     - name: Manufacturing
       href: manufacturing/index.md
       items:
