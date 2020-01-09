@@ -37,8 +37,10 @@
     "globalMetadata": {
       "breadcrumb_path": "/azure/industry/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "brand": "azure",
       "hideScope": true,
+      "ROBOTS": "NOINDEX,NOFOLLOW",
+      "is_archived": "true",
+      "docs_archive": "manual"
       "feedback_system": "None",
       "searchScope": [
         "Azure"
