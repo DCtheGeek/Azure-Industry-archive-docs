@@ -2,17 +2,21 @@
   tocHref: /
   topicHref: /
   items:
+  - name: Previous Versions
+    tocHref: /previous-versions/
+    topicHref: /previous-versions/
+  items:
   - name: Azure
-    tocHref: /azure/
-    topicHref: /azure/
+    tocHref: /previous-versions/azure/
+    topicHref: /previous-versions/azure/
     items:
     - name: Industry
-      tocHref: /Industry/
-      topicHref: /azure/industry/
+      tocHref: /previous-versions/Industry/
+      topicHref: /previous-versions/azure/industry/
       items:
       - name: Financial Services
-        tocHref: /Financial/
-        topicHref: /azure/industry/financial/
+        tocHref: /previous-versions/Financial/
+        topicHref: /previous-versions/azure/industry/financial/
         items:
           - name: Additional Resources
             items:
@@ -29,8 +33,8 @@
             - name: Tutorial- AAD integration with Asset Bank
               tocHref: /azure/active-directory/active-directory-saas-assetbank-tutorial
       - name: Health & Life Sciences
-        tocHref: /Health & Life Sciences/
-        topicHref: /azure/industry/health/
+        tocHref: /previous-versions/Health & Life Sciences/
+        topicHref: /previous-versions/azure/industry/health/
         items:
         - name: Biomedical Entity Recognition
           tocHref: /azure/machine-learning/desktop-workbench/scenario-tdsp-biomedical-recognition
@@ -60,7 +64,7 @@
               tocHref: /azure/healthbot/
       - name: Manufacturing
         tocHref: /Manufacturing/
-        topicHref: /azure/industry/manufacturing/
+        topicHref: /previous-versions/azure/industry/manufacturing/
         items:
           - name: Deep learning for PdM real-world scenarios
             tocHref: /azure/machine-learning/desktop-workbench/scenario-deep-learning-for-predictive-maintenance
@@ -70,7 +74,7 @@
                 tocHref: /azure/stream-analytics/
       - name: Retail
         tocHref: /Retail/
-        topicHref: /azure/industry/retail/
+        topicHref: /previous-versions/azure/industry/retail/
         items:
           - name: PCI DSS-compliant Payment Processing
             tocHref: /azure/security/blueprints/payment-processing-blueprint
